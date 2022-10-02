@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.l-main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222;
+    margin-bottom: 20px;
+}
+
+.icon{
+    cursor: pointer;
+    color: white;
+}
+
+.copyright{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

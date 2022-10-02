@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p_container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 245, 246);
+    background: linear-gradient(rgb(239, 246, 189),rgb(182, 244, 233))
+}
+
+.p_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+h5{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.pi_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.p_projects{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:480px) {
+    p{
+        margin-left: 20px;
+    }
+}

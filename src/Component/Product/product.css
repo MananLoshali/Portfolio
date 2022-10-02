@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+    margin: 20px 10px ;
+    cursor: pointer;
+    position: relative;
+}
+
+.upper{
+    height: 15%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* .lower{
+   
+} */
+
+.pr_image{
+    width: 100%;
+   
+}
+
+.pr_image:hover{
+    transform:  translateY(-70%);
+    transition: 5s;
+}

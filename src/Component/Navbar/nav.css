@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.n-container{
+    height: 8vh;
+    background-color: mediumslateblue;
+    display: flex;
+  
+}
+
+.n-left{
+    flex:.4;
+    background-color: rgb(13, 11, 11);
+}
+
+.n-right{
+    flex: 2;
+    background-color:  rgb(13, 11, 11);;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.n-items{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.n-items:hover{
+    color: bisque;
+}
+
+
+@media screen and (max-width:480px) {
+    .n-container{
+       width: 100vw;
+    }
+}
