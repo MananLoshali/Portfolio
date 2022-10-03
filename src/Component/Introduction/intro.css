@@ -8,7 +8,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .i-left{
@@ -21,6 +21,9 @@
 .i-right{
     flex: 1;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .i-content{
@@ -81,12 +84,11 @@ h1{
 }
 
 .i-image{
-  width: 98%;
-  height: 90%;
-  object-fit: cover;
+  height: 500px;
+  /* padding: 10%; */
+  object-fit: fill;
   position: absolute;
   overflow: hidden;
-  border-radius: 50%;
 }
 
 @media screen and (max-width:480px) {
