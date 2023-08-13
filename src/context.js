@@ -4,7 +4,7 @@ export const ThemeContext = createContext();
 
 const INITIAL_STATE = { darkMode: false };
 
-const themeReducer = (state, action) => {
+const themeReduce = (state, action) => {
   switch (action.type) {
     case "TOGGLE":
       return { darkMode: !state.darkMode };
@@ -14,7 +14,7 @@ const themeReducer = (state, action) => {
 };
 
 export const ThemeProvider = (props) => {
-  const [state, dispatch] = useReducer(themeReducer, INITIAL_STATE);
+  const [state, dispatch] = useReducer(themeReduce, INITIAL_STATE);
 
   return (
     <ThemeContext.Provider value={{ state, dispatch }}>
