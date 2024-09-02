@@ -1,19 +1,31 @@
 import React from "react";
 import "./nav.css";
+import Logo from "../../images/logo.jpeg";
+const Nav = ({ aboutRef, projectsRef, contactRef }) => {
+  const scrollToSection = (ref) => {
+    // Check if ref exists before using it
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
-const Nav = () => {
   return (
-    <>
-      <div className="n-container">
-        <div className="n-left"></div>
-        <div className="n-right">
-          <div className="n-items">Home</div>
-          <div className="n-items">About</div>
-          <div className="n-items">Projects</div>
-          <div className="n-items">Contact</div>
+    <div className="n-container">
+      <div className="n-left">
+        <img className="logo" src={Logo} alt="logo" />
+      </div>
+      <div className="n-right">
+        <div className="n-items" onClick={() => scrollToSection(aboutRef)}>
+          About
+        </div>
+        <div className="n-items" onClick={() => scrollToSection(projectsRef)}>
+          Projects
+        </div>
+        <div className="n-items" onClick={() => scrollToSection(contactRef)}>
+          Contact
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

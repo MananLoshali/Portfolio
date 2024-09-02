@@ -4,14 +4,10 @@ import Me from "../../images/me2.jpg";
 import styled, { css } from "styled-components";
 
 const arr = [
-  "Web Developer",
-  "UI/UX Designer",
-  "Teacher",
-  "fullstack Developer",
-  "Android developer",
-  "Anchor",
-  "Singer",
-  "Reader",
+  "Front-End Developer",
+  "Back-End Developer",
+  "Fullstack Developer",
+  "API Developer",
   "Learner",
   "Student",
 ];
@@ -81,12 +77,15 @@ const Intro = () => {
               </TitleWrapper>
             </div>
             <p className="i-para">
-              Hello World, I'm Manan Loshali, a Front-End Web Developer. I am
-              passonate about creating interactive web applications. I like to
-              make good-looking and responsive UI's. I love to add animation on
-              the web pages so that it can become more attractive. I have
-              created some awseome projects also. I want to learn new
-              technologies and implement it.
+              Hello World, I'm Manan Loshali, a Full-Stack Web Developer with a
+              passion for creating interactive and dynamic web applications. I
+              specialize in building robust and scalable applications using the
+              MERN stack (MongoDB, Express.js, React, Node.js). I focus on
+              crafting clean, efficient code and ensuring that both the
+              front-end and back-end work seamlessly together. I've worked on a
+              range of awesome projects, including developing APIs and user
+              interfaces with React. I'm always eager to learn new technologies
+              and implement them in innovative ways.
             </p>
           </div>
         </div>

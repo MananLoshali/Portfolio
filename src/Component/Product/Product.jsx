@@ -1,20 +1,20 @@
 import React from "react";
 import "./product.css";
-import Se from "../../images/df.png";
 
-const Product = () => {
+const Product = (props) => {
+  const { image, link } = props;
   return (
     <>
-      <div className="card">
+      <a href={link} target="_blank" className="card">
         <div className="upper">
           <div className="circle"></div>
           <div className="circle"></div>
           <div className="circle"></div>
         </div>
         <div className="lower">
-          <img className="pr_image" src={Se} alt="" />
+          <img className="pr_image" src={image} alt="" />
         </div>
-      </div>
+      </a>
     </>
   );
 };
