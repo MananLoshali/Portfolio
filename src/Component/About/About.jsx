@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
-import Me from "../../images/me.jpg";
+// import Me from "../../images/me.jpg";
+import Me from "../../images/me2.jpg";
 
 const About = () => {
   return (
@@ -19,23 +20,23 @@ const About = () => {
               Engineering from Uttarakhand Technical University. Throughout my
               academic journey, I have been a self-learner, constantly expanding
               my knowledge and skills beyond the classroom.
-              <br />
-              <br />
-              <p className="a_para">
-                I initially focused on Front-End Web Development, but my passion
-                for technology and learning has driven me to broaden my
-                expertise. Today, I am a Full Stack Web Developer with hands-on
-                experience in both front-end and back-end technologies.
-              </p>
+            </p>
+            <br />
+            <br />
+            <p className="a_para">
+              I initially focused on Front-End Web Development, but my passion
+              for technology and learning has driven me to broaden my expertise.
+              Today, I am a Full Stack Web Developer with hands-on experience in
+              both front-end and back-end technologies.
             </p>
           </div>
         </div>
-        <div>
+        <div className="a_wrappers">
           <p className="a_title">Internship Experience:</p>
           <h4 className="a_heading">Software Developer Intern</h4>
-          <p className="a_para">
+          <p className="a_paras">
             <p className="title_name">
-              75way Technologies Pvt. Ltd. (Mohali) | Jan 2024 – Jul 2024
+              75way Technologies Pvt.Ltd. (Mohali) | Jan 2024 - Jul 2024
             </p>
             During my internship at 75way Technologies, I contributed to the
             development and maintenance of two live web applications using
@@ -51,9 +52,9 @@ const About = () => {
           <br />
 
           <h4 className="a_heading">Software Developer Intern</h4>
-          <p className="a_para">
+          <p className="a_paras">
             <p className="title_name">
-              Rohini Tech Media Pvt Ltd (Hyderabad) | Dec 2022 – Feb 2023
+              Rohini Tech Media Pvt.Ltd. (Hyderabad) | Dec 2022 – Feb 2023
             </p>
             At Rohini Tech Media, I learned software engineering process
             improvements and best practices. I developed various web pages using

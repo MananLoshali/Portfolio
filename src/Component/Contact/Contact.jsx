@@ -57,15 +57,15 @@ const Contact = () => {
           </div>
           <div className="c-wrapper">
             <img className="cc-image" src={Address} alt="" />
-            <span>Motahaldu, Haldwani, Uttarakhand, India</span>
+            <span>Haldwani, Uttarakhand, India</span>
           </div>
         </div>
       </div>
       <div className="c-right">
         <div className="c-ques">
           <h1 className="bold">What's your story?</h1>Get in touch. Looking for
-          an opportunity to do an internship. Also available for freelancing if
-          right project comes along me.
+          an opportunity to join a company as software developer. Also available
+          for freelancing if right project comes along me.
         </div>
         <div className="c-input">
           <form ref={formRef} onSubmit={handleSubmit}>
